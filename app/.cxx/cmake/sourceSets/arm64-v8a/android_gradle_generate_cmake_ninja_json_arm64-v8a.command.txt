@@ -1,0 +1,17 @@
+Executable : D:\android\software\sdk\cmake\3.6.4111459\bin\cmake.exe
+arguments : 
+-HD:\android\HMSerialPort\hongxiafacesdk\app\src\main\cpp
+-BD:\android\HMSerialPort\hongxiafacesdk\app\.cxx\cmake\sourceSets\arm64-v8a
+-DANDROID_ABI=arm64-v8a
+-DANDROID_PLATFORM=android-19
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=D:\android\HMSerialPort\hongxiafacesdk\app\build\intermediates\cmake\sourceSets\obj\arm64-v8a
+-DCMAKE_BUILD_TYPE=Release
+-DANDROID_NDK=D:\android\software\sdk\ndk-bundle
+-DCMAKE_CXX_FLAGS=-std=c++11 -frtti -fexceptions
+-DCMAKE_TOOLCHAIN_FILE=D:\android\software\sdk\ndk-bundle\build\cmake\android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=D:\android\software\sdk\cmake\3.6.4111459\bin\ninja.exe
+-GAndroid Gradle - Ninja
+-DANDROID_ARM_NEON=TRUE
+-DANDROID_TOOLCHAIN=clang
+jvmArgs : 
+

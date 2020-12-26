@@ -1,0 +1,36 @@
+{
+  "buildFiles": [
+    "D:\\android\\HMSerialPort\\hongxiafacesdk\\app\\src\\main\\cpp\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "D:\\android\\software\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\android\\HMSerialPort\\hongxiafacesdk\\app\\.cxx\\cmake\\sourceSets\\arm64-v8a --target clean"
+  ],
+  "libraries": {
+    "ncnn-release-arm64-v8a": {
+      "artifactName": "ncnn",
+      "abi": "arm64-v8a",
+      "output": "D:\\android\\HMSerialPort\\hongxiafacesdk\\app\\src\\main\\cpp\\..\\jniLibs\\arm64-v8a\\libncnn.a"
+    },
+    "engine-release-arm64-v8a": {
+      "artifactName": "engine",
+      "buildCommand": "D:\\android\\software\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\android\\HMSerialPort\\hongxiafacesdk\\app\\.cxx\\cmake\\sourceSets\\arm64-v8a --target engine",
+      "abi": "arm64-v8a",
+      "output": "D:\\android\\HMSerialPort\\hongxiafacesdk\\app\\distribution\\arm64-v8a\\libengine.so"
+    },
+    "opencv_codecs-release-arm64-v8a": {
+      "artifactName": "opencv_codecs",
+      "abi": "arm64-v8a",
+      "output": "D:\\android\\HMSerialPort\\hongxiafacesdk\\app\\src\\main\\cpp\\..\\jniLibs\\arm64-v8a\\libopencv_imgcodecs.so"
+    },
+    "opencv_core-release-arm64-v8a": {
+      "artifactName": "opencv_core",
+      "abi": "arm64-v8a",
+      "output": "D:\\android\\HMSerialPort\\hongxiafacesdk\\app\\src\\main\\cpp\\..\\jniLibs\\arm64-v8a\\libopencv_core.so"
+    },
+    "opencv_imgproc-release-arm64-v8a": {
+      "artifactName": "opencv_imgproc",
+      "abi": "arm64-v8a",
+      "output": "D:\\android\\HMSerialPort\\hongxiafacesdk\\app\\src\\main\\cpp\\..\\jniLibs\\arm64-v8a\\libopencv_imgproc.so"
+    }
+  }
+}

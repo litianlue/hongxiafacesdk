@@ -1,0 +1,89 @@
+apply plugin: 'com.android.library' //terminal执行命令：gradlew makeJar  在build目录libs下产生jar包
+//apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+
+apply plugin: 'com.github.dcendents.android-maven'
+group='com.gitee.xuqingcode'
+android {
+    compileSdkVersion 26
+    defaultConfig {
+//        applicationId "com.dfxh.wang.serialport_test"
+        minSdkVersion 19
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+//        ndk {
+//            abiFilters "armeabi-v7a", "x86", "armeabi"
+//        }
+        externalNativeBuild {
+            cmake {
+                cppFlags "-std=c++11 -frtti -fexceptions"
+                abiFilters 'armeabi-v7a', 'arm64-v8a'
+                arguments "-DANDROID_ARM_NEON=TRUE"
+                arguments "-DANDROID_TOOLCHAIN=clang"
+            }
+        }
+    }
+    externalNativeBuild {
+        cmake {
+            path "src/main/cpp/CMakeLists.txt"
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        sourceSets {
+            main { jni.srcDirs = [] }
+        }
+    }
+
+    task makeJar(type: Copy) {
+        //删除存在的
+        delete 'build/libs/hanman_serial_sdk2.5.jar'
+        //设置拷贝的文件
+//        from('build/intermediates/bundles/debug/')
+        from('build/intermediates/packaged-classes/debug/')
+        //打进jar包后的文件目录
+        into('build/libs/')
+        //将classes.jar放入build/libs/目录下
+        //include ,exclude参数来设置过滤
+        //（我们只关心classes.jar这个文件）
+        include('classes.jar')
+        //重命名
+        rename ('classes.jar', 'hongxia_sdk2.5.jar')
+    }
+    compileOptions {
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
+    }
+    allprojects {
+        repositories {
+            google()
+            jcenter()
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.1'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+    implementation 'com.rokid.glass:facelib:4.16.3.3-cpu'
+//    implementation 'com.rokid.citrus:citrusfacesdk:4.4'
+//    implementation (name: 'facelib-debug', ext:'aar')
+    implementation 'com.rokid.glass:cameralib:1.0.0'
+    implementation 'com.alibaba:fastjson:1.2.47'
+    implementation ("android.arch.persistence.room:runtime:1.1.1")
+    annotationProcessor "android.arch.persistence.room:compiler:1.1.1"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+}
+repositories {
+    mavenCentral()
+}

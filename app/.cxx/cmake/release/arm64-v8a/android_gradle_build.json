@@ -1,0 +1,97 @@
+
+{
+	"buildFiles" : 
+	[
+		"D:/android/HMSerialPort/hongxiafacesdk/app/src/main/cpp/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"D:\\android\\software\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\android\\HMSerialPort\\hongxiafacesdk\\app\\.cxx\\cmake\\release\\arm64-v8a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"engine-release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "engine",
+			"buildCommand" : "D:\\android\\software\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\android\\HMSerialPort\\hongxiafacesdk\\app\\.cxx\\cmake\\release\\arm64-v8a --target engine",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=D:/android/software/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/android/software/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dengine_EXPORTS -ID:\\android\\HMSerialPort\\hongxiafacesdk\\app\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/android/HMSerialPort/hongxiafacesdk/app/src/main/cpp/face_detector_jni.cpp",
+					"workingDirectory" : "D:/android/HMSerialPort/hongxiafacesdk/app/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=D:/android/software/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/android/software/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dengine_EXPORTS -ID:\\android\\HMSerialPort\\hongxiafacesdk\\app\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/android/HMSerialPort/hongxiafacesdk/app/src/main/cpp/img_process.cpp",
+					"workingDirectory" : "D:/android/HMSerialPort/hongxiafacesdk/app/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=D:/android/software/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/android/software/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dengine_EXPORTS -ID:\\android\\HMSerialPort\\hongxiafacesdk\\app\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/android/HMSerialPort/hongxiafacesdk/app/src/main/cpp/live_jni.cpp",
+					"workingDirectory" : "D:/android/HMSerialPort/hongxiafacesdk/app/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=D:/android/software/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/android/software/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dengine_EXPORTS -ID:\\android\\HMSerialPort\\hongxiafacesdk\\app\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/android/HMSerialPort/hongxiafacesdk/app/src/main/cpp/detection/face_detector.cpp",
+					"workingDirectory" : "D:/android/HMSerialPort/hongxiafacesdk/app/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=D:/android/software/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/android/software/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dengine_EXPORTS -ID:\\android\\HMSerialPort\\hongxiafacesdk\\app\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/android/HMSerialPort/hongxiafacesdk/app/src/main/cpp/live/live.cpp",
+					"workingDirectory" : "D:/android/HMSerialPort/hongxiafacesdk/app/.cxx/cmake/release/arm64-v8a"
+				}
+			],
+			"output" : "D:/android/HMSerialPort/hongxiafacesdk/app/distribution/arm64-v8a/libengine.so",
+			"toolchain" : "4268899791"
+		},
+		"ncnn-release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "ncnn",
+			"buildType" : "release",
+			"output" : "D:/android/HMSerialPort/hongxiafacesdk/app/src/main/cpp/../jniLibs/arm64-v8a/libncnn.a",
+			"toolchain" : "4268899791"
+		},
+		"opencv_codecs-release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "opencv_codecs",
+			"buildType" : "release",
+			"output" : "D:/android/HMSerialPort/hongxiafacesdk/app/src/main/cpp/../jniLibs/arm64-v8a/libopencv_imgcodecs.so",
+			"toolchain" : "4268899791"
+		},
+		"opencv_core-release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "opencv_core",
+			"buildType" : "release",
+			"output" : "D:/android/HMSerialPort/hongxiafacesdk/app/src/main/cpp/../jniLibs/arm64-v8a/libopencv_core.so",
+			"toolchain" : "4268899791"
+		},
+		"opencv_imgproc-release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "opencv_imgproc",
+			"buildType" : "release",
+			"output" : "D:/android/HMSerialPort/hongxiafacesdk/app/src/main/cpp/../jniLibs/arm64-v8a/libopencv_imgproc.so",
+			"toolchain" : "4268899791"
+		}
+	},
+	"toolchains" : 
+	{
+		"4268899791" : 
+		{
+			"cCompilerExecutable" : "D:/android/software/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "D:/android/software/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}
