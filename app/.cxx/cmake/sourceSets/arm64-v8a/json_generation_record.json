@@ -5,7 +5,39 @@
   },
   {
     "level": "INFO",
-    "message": "JSON \u0027D:\\android\\HMSerialPort\\hongxiafacesdk\\app\\.cxx\\cmake\\sourceSets\\arm64-v8a\\android_gradle_build.json\u0027 was up-to-date"
+    "message": "rebuilding JSON D:\\android\\HMSerialPort\\hongxiafacesdk\\app\\.cxx\\cmake\\sourceSets\\arm64-v8a\\android_gradle_build.json due to:"
+  },
+  {
+    "level": "INFO",
+    "message": "- force flag, will remove stale json folder"
+  },
+  {
+    "level": "INFO",
+    "message": "removing stale contents from \u0027D:\\android\\HMSerialPort\\hongxiafacesdk\\app\\.cxx\\cmake\\sourceSets\\arm64-v8a\u0027"
+  },
+  {
+    "level": "INFO",
+    "message": "created folder \u0027D:\\android\\HMSerialPort\\hongxiafacesdk\\app\\.cxx\\cmake\\sourceSets\\arm64-v8a\u0027"
+  },
+  {
+    "level": "INFO",
+    "message": "executing cmake Executable : D:\\android\\software\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe\narguments : \n-HD:\\android\\HMSerialPort\\hongxiafacesdk\\app\\src\\main\\cpp\n-BD:\\android\\HMSerialPort\\hongxiafacesdk\\app\\.cxx\\cmake\\sourceSets\\arm64-v8a\n-DANDROID_ABI\u003darm64-v8a\n-DANDROID_PLATFORM\u003dandroid-19\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dD:\\android\\HMSerialPort\\hongxiafacesdk\\app\\build\\intermediates\\cmake\\sourceSets\\obj\\arm64-v8a\n-DCMAKE_BUILD_TYPE\u003dRelease\n-DANDROID_NDK\u003dD:\\android\\software\\sdk\\ndk-bundle\n-DCMAKE_CXX_FLAGS\u003d-std\u003dc++11 -frtti -fexceptions\n-DCMAKE_TOOLCHAIN_FILE\u003dD:\\android\\software\\sdk\\ndk-bundle\\build\\cmake\\android.toolchain.cmake\n-DCMAKE_MAKE_PROGRAM\u003dD:\\android\\software\\sdk\\cmake\\3.6.4111459\\bin\\ninja.exe\n-GAndroid Gradle - Ninja\n-DANDROID_ARM_NEON\u003dTRUE\n-DANDROID_TOOLCHAIN\u003dclang\njvmArgs : \n\n"
+  },
+  {
+    "level": "INFO",
+    "message": "Executable : D:\\android\\software\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe\narguments : \n-HD:\\android\\HMSerialPort\\hongxiafacesdk\\app\\src\\main\\cpp\n-BD:\\android\\HMSerialPort\\hongxiafacesdk\\app\\.cxx\\cmake\\sourceSets\\arm64-v8a\n-DANDROID_ABI\u003darm64-v8a\n-DANDROID_PLATFORM\u003dandroid-19\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dD:\\android\\HMSerialPort\\hongxiafacesdk\\app\\build\\intermediates\\cmake\\sourceSets\\obj\\arm64-v8a\n-DCMAKE_BUILD_TYPE\u003dRelease\n-DANDROID_NDK\u003dD:\\android\\software\\sdk\\ndk-bundle\n-DCMAKE_CXX_FLAGS\u003d-std\u003dc++11 -frtti -fexceptions\n-DCMAKE_TOOLCHAIN_FILE\u003dD:\\android\\software\\sdk\\ndk-bundle\\build\\cmake\\android.toolchain.cmake\n-DCMAKE_MAKE_PROGRAM\u003dD:\\android\\software\\sdk\\cmake\\3.6.4111459\\bin\\ninja.exe\n-GAndroid Gradle - Ninja\n-DANDROID_ARM_NEON\u003dTRUE\n-DANDROID_TOOLCHAIN\u003dclang\njvmArgs : \n\n"
+  },
+  {
+    "level": "INFO",
+    "message": "done executing cmake"
+  },
+  {
+    "level": "INFO",
+    "message": "write build output D:\\android\\HMSerialPort\\hongxiafacesdk\\app\\.cxx\\cmake\\sourceSets\\arm64-v8a\\build_output.txt"
+  },
+  {
+    "level": "INFO",
+    "message": "write command file D:\\android\\HMSerialPort\\hongxiafacesdk\\app\\.cxx\\cmake\\sourceSets\\arm64-v8a\\build_command.txt"
   },
   {
     "level": "INFO",
