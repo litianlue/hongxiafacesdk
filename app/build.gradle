@@ -1,5 +1,5 @@
-apply plugin: 'com.android.library' //terminal执行命令：gradlew makeJar  在build目录libs下产生jar包
-//apply plugin: 'com.android.application'
+//apply plugin: 'com.android.library' //terminal执行命令：gradlew makeJar  在build目录libs下产生jar包
+apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 apply plugin: 'com.github.dcendents.android-maven'
@@ -7,7 +7,7 @@ group='com.gitee.xuqingcode'
 android {
     compileSdkVersion 26
     defaultConfig {
-//        applicationId "com.dfxh.wang.serialport_test"
+        applicationId "com.dfxh.wang.serialport_test"
         minSdkVersion 19
         targetSdkVersion 26
         versionCode 1
